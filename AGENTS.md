@@ -117,6 +117,16 @@ Bands A (inherited DNA, guardrails, branch protocol) and B (company projection) 
 and will be generated into this file when `scripts/agents-md-project.mjs` ships. Everything below is Band C —
 repo-local, hand-written, and **it outranks the generated bands on any conflict inside this repo.**
 
+## Architecture Stack (canonical)
+
+Before recommending or choosing technology, hosting, AI gateways, agent runtimes, databases, or storage:
+
+1. Fetch and follow the living document:  
+   https://github.com/frankxai/frankx-starlight-command/blob/main/ARCHITECTURE-STACK.md
+2. Use the Architectural Checker prompt inside that file for any new surface.
+3. Record repo-specific exceptions as short ADRs and link them back to the canonical file.
+4. Do not invent a parallel stack doctrine in this repo.
+
 ---
 
 ## What this repo is
